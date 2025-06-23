@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>gptme: Personal AI Assistant Framework</title>
+
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/theme/black.css" id="theme">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/highlight/monokai.css" id="highlight-theme">
+
+		<style>
+			.reveal .slides section .fragment.highlight-green.visible {
+				color: #51cf66;
+			}
+			.reveal .slides section .fragment.highlight-blue.visible {
+				color: #339af0;
+			}
+			.reveal .slides section .fragment.highlight-orange.visible {
+				color: #ff922b;
+			}
+			
+			.logo {
+				width: 120px;
+				height: 120px;
+				margin: 0 auto 2rem;
+			}
+			
+			.feature-grid {
+				display: grid;
+				grid-template-columns: repeat(3, 1fr);
+				gap: 1.5rem;
+				margin: 2rem 0;
+			}
+			
+			.feature-card {
+				background: rgba(255, 255, 255, 0.1);
+				padding: 1.5rem;
+				border-radius: 10px;
+				border: 1px solid rgba(255, 255, 255, 0.2);
+			}
+			
+			.feature-card h3 {
+				font-size: 1.1em;
+				margin-bottom: 0.5rem;
+			}
+			
+			.feature-card p {
+				font-size: 0.7em;
+				line-height: 1.3;
+				margin: 0.3rem 0;
+			}
+			
+			.stats-container {
+				display: flex;
+				justify-content: space-around;
+				margin: 2rem 0;
+			}
+			
+			.stat-item {
+				text-align: center;
+			}
+			
+			.stat-number {
+				font-size: 2rem;
+				font-weight: bold;
+				color: #51cf66;
+			}
+			
+			.comparison-table {
+				width: 100%;
+				border-collapse: collapse;
+				margin: 2rem 0;
+			}
+			
+			.comparison-table th,
+			.comparison-table td {
+				padding: 1rem;
+				text-align: left;
+				border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+			}
+			
+			.comparison-table th {
+				background: rgba(255, 255, 255, 0.1);
+			}
+			
+			.checkmark {
+				color: #51cf66;
+				font-weight: bold;
+			}
+			
+			.crossmark {
+				color: #ff6b6b;
+				font-weight: bold;
+			}
+			
+			/* Make text sizes more reasonable */
+			.reveal h1 {
+				font-size: 2.5em;
+			}
+			
+			.reveal h2 {
+				font-size: 1.8em;
+			}
+			
+			.reveal h3 {
+				font-size: 1.3em;
+			}
+			
+			.reveal p, .reveal li {
+				font-size: 0.8em;
+				line-height: 1.4;
+			}
+			
+			.reveal .slides section {
+				font-size: 0.8em;
+				padding: 2rem;
+				box-sizing: border-box;
+			}
+			
+			/* Prevent automatic uppercase transformation */
+			.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+				text-transform: none;
+			}
+			
+			/* Ensure content fits better */
+			.reveal p, .reveal li {
+				font-size: 0.75em;
+				line-height: 1.3;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<!-- Title slide -->
+				<section data-markdown="slides/01-title.md" 
+				         data-separator="^\n\n\n" 
+				         data-separator-vertical="^\n\n" 
+				         data-separator-notes="^Note:"
+				         data-background-gradient="linear-gradient(to bottom, #1e3c72, #2a5298)">
+				</section>
+
+				<!-- Problem Statement -->
+				<section data-markdown="slides/02-problem.md"
+				         data-separator="^\n\n\n"
+				         data-separator-vertical="^\n\n">
+				</section>
+
+				<!-- Solution Overview -->
+				<section data-markdown="slides/03-solution.md"
+				         data-separator="^\n\n\n"
+				         data-separator-vertical="^\n\n"
+				         data-background-gradient="linear-gradient(45deg, #667eea, #764ba2)">
+				</section>
+
+				<!-- Timeline -->
+				<section data-markdown="slides/04-timeline.md"
+				         data-separator="^\n\n\n"
+				         data-separator-vertical="^\n\n">
+				</section>
+
+				<!-- Core Capabilities -->
+				<section data-markdown="slides/05-capabilities.md"
+				         data-separator="^\n\n\n"
+				         data-separator-vertical="^\n\n">
+				</section>
+
+				<!-- Architecture -->
+				<section data-markdown="slides/06-architecture.md"
+				         data-separator="^\n\n\n"
+				         data-separator-vertical="^\n\n">
+				</section>
+
+				<!-- Comparison -->
+				<section data-markdown="slides/07-comparison.md"
+				         data-separator="^\n\n\n"
+				         data-separator-vertical="^\n\n">
+				</section>
+
+				<!-- Use Cases -->
+				<section data-markdown="slides/08-use-cases.md"
+				         data-separator="^\n\n\n"
+				         data-separator-vertical="^\n\n">
+				</section>
+
+				<!-- Agent Vision -->
+				<section data-markdown="slides/09-agent-vision.md"
+				         data-separator="^\n\n\n"
+				         data-separator-vertical="^\n\n"
+				         data-background-gradient="linear-gradient(to bottom, #ff6b6b, #ee5a52)">
+				</section>
+
+				<!-- Market Opportunity -->
+				<section data-markdown="slides/10-market.md"
+				         data-separator="^\n\n\n"
+				         data-separator-vertical="^\n\n">
+				</section>
+
+				<!-- Roadmap -->
+				<section data-markdown="slides/11-roadmap.md"
+				         data-separator="^\n\n\n"
+				         data-separator-vertical="^\n\n">
+				</section>
+
+				<!-- Community & Adoption -->
+				<section data-markdown="slides/12-community.md"
+				         data-separator="^\n\n\n"
+				         data-separator-vertical="^\n\n">
+				</section>
+
+				<!-- Call to Action -->
+				<section data-markdown="slides/13-cta.md"
+				         data-separator="^\n\n\n"
+				         data-separator-vertical="^\n\n"
+				         data-background-gradient="linear-gradient(to bottom, #667eea, #764ba2)">
+				</section>
+			</div>
+		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/notes/notes.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/markdown/markdown.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/highlight/highlight.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/math/math.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/search/search.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/zoom/zoom.js"></script>
+
+		<script>
+			Reveal.initialize({
+				hash: true,
+				controls: true,
+				progress: true,
+				center: true,
+				touch: true,
+				fragments: true,
+				autoAnimate: true,
+				autoAnimateEasing: 'ease',
+				autoAnimateDuration: 1.0,
+				transition: 'slide',
+				transitionSpeed: 'default',
+				backgroundTransition: 'fade',
+
+				plugins: [ 
+					RevealMarkdown, 
+					RevealHighlight, 
+					RevealNotes, 
+					RevealMath.KaTeX,
+					RevealSearch,
+					RevealZoom
+				]
+			});
+
+			// Custom keyboard shortcuts
+			Reveal.addKeyBinding({ keyCode: 84, key: 'T', description: 'Toggle theme' }, function() {
+				const themes = [
+					'https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/theme/black.css',
+					'https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/theme/white.css',
+					'https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/theme/league.css',
+					'https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/theme/night.css',
+					'https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/theme/sky.css'
+				];
+				
+				const currentTheme = document.getElementById('theme').getAttribute('href');
+				const currentIndex = themes.indexOf(currentTheme);
+				const nextIndex = (currentIndex + 1) % themes.length;
+				
+				document.getElementById('theme').setAttribute('href', themes[nextIndex]);
+			});
+		</script>
+	</body>
+</html>
