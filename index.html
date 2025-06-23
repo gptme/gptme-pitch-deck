@@ -9,108 +9,12 @@
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.css">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/theme/black.css" id="theme">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/highlight/monokai.css" id="highlight-theme">
+		<script src="https://cdn.tailwindcss.com"></script>
 
 		<style>
-			.reveal .slides section .fragment.highlight-green.visible {
-				color: #51cf66;
-			}
-			.reveal .slides section .fragment.highlight-blue.visible {
-				color: #339af0;
-			}
-			.reveal .slides section .fragment.highlight-orange.visible {
-				color: #ff922b;
-			}
-			
-			.logo {
-				width: 120px;
-				height: 120px;
-				margin: 0 auto 2rem;
-			}
-			
-			.feature-grid {
-				display: grid;
-				grid-template-columns: repeat(3, 1fr);
-				gap: 1.5rem;
-				margin: 2rem 0;
-			}
-			
-			.feature-card {
-				background: rgba(255, 255, 255, 0.1);
-				padding: 1.5rem;
-				border-radius: 10px;
-				border: 1px solid rgba(255, 255, 255, 0.2);
-			}
-			
-			.feature-card h3 {
-				font-size: 1.1em;
-				margin-bottom: 0.5rem;
-			}
-			
-			.feature-card p {
-				font-size: 0.7em;
-				line-height: 1.3;
-				margin: 0.3rem 0;
-			}
-			
-			.stats-container {
-				display: flex;
-				justify-content: space-around;
-				margin: 2rem 0;
-			}
-			
-			.stat-item {
-				text-align: center;
-			}
-			
-			.stat-number {
-				font-size: 2rem;
-				font-weight: bold;
-				color: #51cf66;
-			}
-			
-			.comparison-table {
-				width: 100%;
-				border-collapse: collapse;
-				margin: 2rem 0;
-			}
-			
-			.comparison-table th,
-			.comparison-table td {
-				padding: 1rem;
-				text-align: left;
-				border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-			}
-			
-			.comparison-table th {
-				background: rgba(255, 255, 255, 0.1);
-			}
-			
-			.checkmark {
-				color: #51cf66;
-				font-weight: bold;
-			}
-			
-			.crossmark {
-				color: #ff6b6b;
-				font-weight: bold;
-			}
-			
-			/* Make text sizes more reasonable */
-			.reveal h1 {
-				font-size: 2.5em;
-			}
-			
-			.reveal h2 {
-				font-size: 1.8em;
-			}
-			
-			.reveal h3 {
-				font-size: 1.3em;
-			}
-			
-			.reveal p, .reveal li {
-				font-size: 0.8em;
-				line-height: 1.4;
+			/* Reveal.js specific overrides */
+			.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+				text-transform: none;
 			}
 			
 			.reveal .slides section {
@@ -119,17 +23,30 @@
 				box-sizing: border-box;
 			}
 			
-			/* Prevent automatic uppercase transformation */
-			.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
-				text-transform: none;
-			}
+			.reveal h1 { font-size: 2.5em; }
+			.reveal h2 { font-size: 1.8em; }
+			.reveal h3 { font-size: 1.3em; }
+			.reveal p, .reveal li { font-size: 0.75em; line-height: 1.3; }
 			
-			/* Ensure content fits better */
-			.reveal p, .reveal li {
-				font-size: 0.75em;
-				line-height: 1.3;
-			}
+			/* Fragment colors */
+			.reveal .slides section .fragment.highlight-green.visible { color: #10b981; }
+			.reveal .slides section .fragment.highlight-blue.visible { color: #3b82f6; }
+			.reveal .slides section .fragment.highlight-orange.visible { color: #f59e0b; }
 		</style>
+		
+		<script>
+			tailwind.config = {
+				theme: {
+					extend: {
+						colors: {
+							'green-custom': '#10b981',
+							'blue-custom': '#3b82f6',
+							'orange-custom': '#f59e0b',
+						}
+					}
+				}
+			}
+		</script>
 	</head>
 	<body>
 		<div class="reveal">

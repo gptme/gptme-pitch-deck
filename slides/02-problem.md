@@ -1,21 +1,21 @@
 ## The Problem with Current AI
 
-<div class="feature-grid">
-  <div class="feature-card fragment">
-    <h3>🔒 Limited & Walled</h3>
-    <p>ChatGPT and Claude are powerful but constrained by their platforms</p>
+<div class="grid grid-cols-3 gap-4 my-6">
+  <div class="fragment bg-white/10 p-4 rounded-lg border border-white/20">
+    <h3 class="text-lg mb-2">🔒 Limited & Walled</h3>
+    <p class="text-sm leading-tight">ChatGPT and Claude are powerful but constrained by their platforms</p>
   </div>
-  <div class="feature-card fragment">
-    <h3>⏱️ Ephemeral Sessions</h3>
-    <p>No persistent memory or long-running capabilities</p>
+  <div class="fragment bg-white/10 p-4 rounded-lg border border-white/20">
+    <h3 class="text-lg mb-2">⏱️ Ephemeral Sessions</h3>
+    <p class="text-sm leading-tight">No persistent memory or long-running capabilities</p>
   </div>
-  <div class="feature-card fragment">
-    <h3>🌐 Cloud Dependent</h3>
-    <p>All processing happens in the cloud, no local control</p>
+  <div class="fragment bg-white/10 p-4 rounded-lg border border-white/20">
+    <h3 class="text-lg mb-2">🌐 Cloud Dependent</h3>
+    <p class="text-sm leading-tight">All processing happens in the cloud, no local control</p>
   </div>
-  <div class="feature-card fragment">
-    <h3>🔧 Hard to Extend</h3>
-    <p>Limited customization and tool integration options</p>
+  <div class="fragment bg-white/10 p-4 rounded-lg border border-white/20">
+    <h3 class="text-lg mb-2">🔧 Hard to Extend</h3>
+    <p class="text-sm leading-tight">Limited customization and tool integration options</p>
   </div>
 </div>
 

@@ -2,18 +2,18 @@
 
 The open-source AI assistant framework that gives you real control <!-- .element: class="fragment" -->
 
-<div class="stats-container">
-  <div class="stat-item fragment">
-    <div class="stat-number">2023</div>
-    <div>Early Pioneer</div>
+<div class="flex justify-around my-8">
+  <div class="fragment text-center">
+    <div class="text-3xl font-bold text-green-500">2023</div>
+    <div class="text-sm">Early Pioneer</div>
   </div>
-  <div class="stat-item fragment">
-    <div class="stat-number">100%</div>
-    <div>Open Source</div>
+  <div class="fragment text-center">
+    <div class="text-3xl font-bold text-green-500">100%</div>
+    <div class="text-sm">Open Source</div>
   </div>
-  <div class="stat-item fragment">
-    <div class="stat-number">4</div>
-    <div>Deployment Options</div>
+  <div class="fragment text-center">
+    <div class="text-3xl font-bold text-green-500">4</div>
+    <div class="text-sm">Deployment Options</div>
   </div>
 </div>
 

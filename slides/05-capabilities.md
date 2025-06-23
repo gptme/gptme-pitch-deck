@@ -1,29 +1,29 @@
 ## Core Capabilities
 
-<div class="feature-grid">
-  <div class="feature-card fragment">
-    <h3>💻 Code Execution</h3>
-    <p>Run Python, bash, and shell commands directly</p>
+<div class="grid grid-cols-3 gap-4 my-6">
+  <div class="fragment bg-white/10 p-4 rounded-lg border border-white/20">
+    <h3 class="text-lg mb-2">💻 Code Execution</h3>
+    <p class="text-sm leading-tight">Run Python, bash, and shell commands directly</p>
   </div>
-  <div class="feature-card fragment">
-    <h3>📝 File Operations</h3>
-    <p>Read, write, and intelligently patch files</p>
+  <div class="fragment bg-white/10 p-4 rounded-lg border border-white/20">
+    <h3 class="text-lg mb-2">📝 File Operations</h3>
+    <p class="text-sm leading-tight">Read, write, and intelligently patch files</p>
   </div>
-  <div class="feature-card fragment">
-    <h3>🌐 Web Browsing</h3>
-    <p>Search and navigate the web with screenshots</p>
+  <div class="fragment bg-white/10 p-4 rounded-lg border border-white/20">
+    <h3 class="text-lg mb-2">🌐 Web Browsing</h3>
+    <p class="text-sm leading-tight">Search and navigate the web with screenshots</p>
   </div>
-  <div class="feature-card fragment">
-    <h3>👀 Vision Support</h3>
-    <p>Analyze images, screenshots, and visual content</p>
+  <div class="fragment bg-white/10 p-4 rounded-lg border border-white/20">
+    <h3 class="text-lg mb-2">👀 Vision Support</h3>
+    <p class="text-sm leading-tight">Analyze images, screenshots, and visual content</p>
   </div>
-  <div class="feature-card fragment">
-    <h3>🛠️ Extensible Tools</h3>
-    <p>Rich plugin system for custom functionality</p>
+  <div class="fragment bg-white/10 p-4 rounded-lg border border-white/20">
+    <h3 class="text-lg mb-2">🛠️ Extensible Tools</h3>
+    <p class="text-sm leading-tight">Rich plugin system for custom functionality</p>
   </div>
-  <div class="feature-card fragment">
-    <h3>🤖 Self-Correcting</h3>
-    <p>Learns from errors and iterates automatically</p>
+  <div class="fragment bg-white/10 p-4 rounded-lg border border-white/20">
+    <h3 class="text-lg mb-2">🤖 Self-Correcting</h3>
+    <p class="text-sm leading-tight">Learns from errors and iterates automatically</p>
   </div>
 </div>
 
