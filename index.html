@@ -16,24 +16,24 @@
 			.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
 				text-transform: none;
 			}
-			
+
 			.reveal .slides section {
 				font-size: 0.8em;
 				padding: 2rem;
 				box-sizing: border-box;
 			}
-			
+
 			.reveal h1 { font-size: 2.5em; }
 			.reveal h2 { font-size: 1.8em; }
 			.reveal h3 { font-size: 1.3em; }
 			.reveal p, .reveal li { font-size: 0.75em; line-height: 1.3; }
-			
+
 			/* Fragment colors */
 			.reveal .slides section .fragment.highlight-green.visible { color: #10b981; }
 			.reveal .slides section .fragment.highlight-blue.visible { color: #3b82f6; }
 			.reveal .slides section .fragment.highlight-orange.visible { color: #f59e0b; }
 		</style>
-		
+
 		<script>
 			tailwind.config = {
 				theme: {
@@ -49,88 +49,117 @@
 		</script>
 	</head>
 	<body>
+		<button id="theme-toggle" class="fixed top-4 right-4 z-50 bg-white/10 hover:bg-white/20 text-white px-3 py-2 rounded-lg border border-white/20 text-sm transition-colors">
+			Theme
+		</button>
+
 		<div class="reveal">
 			<div class="slides">
 				<!-- Title slide -->
-				<section data-markdown="slides/01-title.md" 
-				         data-separator="^\n\n\n" 
-				         data-separator-vertical="^\n\n" 
+				<section data-markdown="slides/title.md"
+				         data-separator="^---"
+				         data-separator-vertical="^--"
 				         data-separator-notes="^Note:"
 				         data-background-gradient="linear-gradient(to bottom, #1e3c72, #2a5298)">
 				</section>
 
 				<!-- Problem Statement -->
-				<section data-markdown="slides/02-problem.md"
-				         data-separator="^\n\n\n"
-				         data-separator-vertical="^\n\n">
+				<section data-markdown="slides/problem.md"
+				         data-separator="^---"
+				         data-separator-vertical="^--">
 				</section>
 
 				<!-- Solution Overview -->
-				<section data-markdown="slides/03-solution.md"
-				         data-separator="^\n\n\n"
-				         data-separator-vertical="^\n\n"
+				<section data-markdown="slides/solution.md"
+				         data-separator="^---"
+				         data-separator-vertical="^--"
 				         data-background-gradient="linear-gradient(45deg, #667eea, #764ba2)">
 				</section>
 
 				<!-- Timeline -->
-				<section data-markdown="slides/04-timeline.md"
-				         data-separator="^\n\n\n"
-				         data-separator-vertical="^\n\n">
+				<section data-markdown="slides/timeline.md"
+				         data-separator="^---"
+				         data-separator-vertical="^--">
 				</section>
 
 				<!-- Core Capabilities -->
-				<section data-markdown="slides/05-capabilities.md"
-				         data-separator="^\n\n\n"
-				         data-separator-vertical="^\n\n">
+				<section data-markdown="slides/capabilities.md"
+				         data-separator="^---"
+				         data-separator-vertical="^--">
 				</section>
 
 				<!-- Architecture -->
-				<section data-markdown="slides/06-architecture.md"
-				         data-separator="^\n\n\n"
-				         data-separator-vertical="^\n\n">
+				<section data-markdown="slides/architecture.md"
+				         data-separator="^---"
+				         data-separator-vertical="^--">
 				</section>
 
 				<!-- Comparison -->
-				<section data-markdown="slides/07-comparison.md"
-				         data-separator="^\n\n\n"
-				         data-separator-vertical="^\n\n">
+				<section data-markdown="slides/comparison.md"
+				         data-separator="^---"
+				         data-separator-vertical="^--">
 				</section>
 
 				<!-- Use Cases -->
-				<section data-markdown="slides/08-use-cases.md"
-				         data-separator="^\n\n\n"
-				         data-separator-vertical="^\n\n">
+				<section data-markdown="slides/use-cases.md"
+				         data-separator="^---"
+				         data-separator-vertical="^--">
 				</section>
 
-				<!-- Agent Vision -->
-				<section data-markdown="slides/09-agent-vision.md"
-				         data-separator="^\n\n\n"
-				         data-separator-vertical="^\n\n"
+				<!-- Agent Approach (Vertical Group) -->
+				<section data-markdown="slides/agents.md"
+				         data-separator="---"
+				         data-separator-vertical="--"
 				         data-background-gradient="linear-gradient(to bottom, #ff6b6b, #ee5a52)">
 				</section>
 
+				<!-- Consumer Directions -->
+				<section data-markdown="slides/consumer-directions.md"
+				         data-separator="^---"
+				         data-separator-vertical="^--">
+				</section>
+
+				<!-- Life Coach Vision -->
+				<section data-markdown="slides/life-coach-vision.md"
+				         data-separator="^---"
+				         data-separator-vertical="^--">
+				</section>
+
+				<!-- Agent Marketplace -->
+				<section data-markdown="slides/agent-marketplace.md"
+				         data-separator="^---"
+				         data-separator-vertical="^--">
+				</section>
+
+				<!-- Supabase Model -->
+				<section data-markdown="slides/supabase-model.md"
+				         data-separator="^---"
+				         data-separator-vertical="^--"
+				         data-background-gradient="linear-gradient(45deg, #667eea, #764ba2)">
+				</section>
+
 				<!-- Market Opportunity -->
-				<section data-markdown="slides/10-market.md"
-				         data-separator="^\n\n\n"
-				         data-separator-vertical="^\n\n">
+				<section data-markdown="slides/market.md"
+				         data-separator="^---"
+				         data-separator-vertical="^--">
 				</section>
 
 				<!-- Roadmap -->
-				<section data-markdown="slides/11-roadmap.md"
-				         data-separator="^\n\n\n"
-				         data-separator-vertical="^\n\n">
+				<section data-markdown="slides/roadmap.md"
+				         data-separator="^---"
+				         data-separator-vertical="^--">
 				</section>
 
 				<!-- Community & Adoption -->
-				<section data-markdown="slides/12-community.md"
-				         data-separator="^\n\n\n"
-				         data-separator-vertical="^\n\n">
+				<section data-markdown="slides/community.md"
+				         data-separator="^---"
+                 data-separator-vertical="^--">
 				</section>
 
 				<!-- Call to Action -->
-				<section data-markdown="slides/13-cta.md"
-				         data-separator="^\n\n\n"
-				         data-separator-vertical="^\n\n"
+				<section data-markdown="slides/cta.md"
+				         data-separator="^---"
+				         data-separator-vertical="^--"
 				         data-background-gradient="linear-gradient(to bottom, #667eea, #764ba2)">
 				</section>
 			</div>
@@ -146,10 +175,15 @@
 
 		<script>
 			Reveal.initialize({
+				// Presentation sizing to prevent overflow
+				width: 1200,
+				height: 800,
+				margin: 0.02,
+
 				hash: true,
 				controls: true,
 				progress: true,
-				center: true,
+				center: false,
 				touch: true,
 				fragments: true,
 				autoAnimate: true,
@@ -159,18 +193,18 @@
 				transitionSpeed: 'default',
 				backgroundTransition: 'fade',
 
-				plugins: [ 
-					RevealMarkdown, 
-					RevealHighlight, 
-					RevealNotes, 
+				plugins: [
+					RevealMarkdown,
+					RevealHighlight,
+					RevealNotes,
 					RevealMath.KaTeX,
 					RevealSearch,
 					RevealZoom
 				]
 			});
 
-			// Custom keyboard shortcuts
-			Reveal.addKeyBinding({ keyCode: 84, key: 'T', description: 'Toggle theme' }, function() {
+			// Theme cycling function
+			function cycleTheme() {
 				const themes = [
 					'https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/theme/black.css',
 					'https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/theme/white.css',
@@ -178,13 +212,19 @@
 					'https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/theme/night.css',
 					'https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/theme/sky.css'
 				];
-				
+
 				const currentTheme = document.getElementById('theme').getAttribute('href');
 				const currentIndex = themes.indexOf(currentTheme);
 				const nextIndex = (currentIndex + 1) % themes.length;
-				
+
 				document.getElementById('theme').setAttribute('href', themes[nextIndex]);
-			});
+			}
+
+			// Wire up theme button
+			document.getElementById('theme-toggle').addEventListener('click', cycleTheme);
+
+			// Keep keyboard shortcut for those who want it
+			Reveal.addKeyBinding({ keyCode: 84, key: 'T', description: 'Toggle theme' }, cycleTheme);
 		</script>
 	</body>
 </html>
