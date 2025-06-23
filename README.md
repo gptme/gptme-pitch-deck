@@ -2,6 +2,8 @@
 
 A comprehensive presentation showcasing gptme as the pioneering open-source AI assistant framework.
 
+Built with [reveal.js](https://revealjs.com/) and [tailwindcss](https://tailwindcss.com/).
+
 ## Overview
 
 This reveal.js presentation tells gptme's compelling story - from early pioneer to the foundation of the emerging agent economy. The deck is designed to work for multiple audiences: developers, investors, potential partners, and general users.
@@ -31,7 +33,9 @@ This reveal.js presentation tells gptme's compelling story - from early pioneer 
 - Background automation (email → GitHub → deploy)
 - Your personal AI workforce
 
-## Slide Structure
+## Slide Structure (first draft)
+
+Note: This is a high-level outline. Each section will be expanded into individual slides with detailed content.
 
 1. **Title** - Logo and positioning
 2. **Problem** - Current AI limitations
@@ -99,27 +103,6 @@ Each slide is a separate markdown file in `slides/` directory:
 4. **Agent Future**: Specialized, persistent AI workers
 5. **Business Model**: Sustainable ecosystem with revenue sharing
 
-## Files Structure
-
-```text
-gptme-pitch-deck/
-├── index.html              # Main presentation file
-├── slides/                 # Individual slide files
-│   ├── 01-title.md
-│   ├── 02-problem.md
-│   ├── 03-solution.md
-│   ├── 04-timeline.md
-│   ├── 05-capabilities.md
-│   ├── 06-architecture.md
-│   ├── 07-comparison.md
-│   ├── 08-use-cases.md
-│   ├── 09-agent-vision.md
-│   ├── 10-market.md
-│   ├── 11-roadmap.md
-│   ├── 12-community.md
-│   └── 13-cta.md
-└── README.md               # This file
-```
 
 ## Demo Script
 

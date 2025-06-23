@@ -31,24 +31,25 @@
   </div>
 </div>
 
+--
+
 <div class="my-6">
-  <h3 class="text-lg mb-3 text-center fragment">Intelligent Weak Spot Detection</h3>
-  <div class="bg-white/10 p-4 rounded-lg border border-white/20">
-    <div class="grid grid-cols-2 gap-4 text-sm">
-      <div class="fragment">
+  <h3 class="text-lg mb-3 text-center">Intelligent Weak Spot Detection</h3>
+    <div class="grid grid-cols-2 gap-4">
+      <div class="bg-white/10 p-4 rounded-lg border border-white/20 fragment">
         <h4 class="mb-2">📊 Data Analysis</h4>
-        <ul class="text-xs space-y-1">
-          <li>• Sleep patterns vs productivity</li>
-          <li>• Spending habits vs financial goals</li>
-          <li>• Exercise frequency vs energy levels</li>
+        <ul class="space-y-1">
+          <li>Sleep patterns vs productivity</li>
+          <li>Spending habits vs financial goals</li>
+          <li>Exercise frequency vs energy levels</li>
         </ul>
       </div>
-      <div class="fragment">
+      <div class="bg-white/10 p-4 rounded-lg border border-white/20 fragment">
         <h4 class="mb-2">🎯 Targeted Suggestions</h4>
-        <ul class="text-xs space-y-1">
-          <li>• High-impact, low-effort changes</li>
-          <li>• Personalized to your lifestyle</li>
-          <li>• Focus on 80/20 improvements</li>
+        <ul class="space-y-1">
+          <li>High-impact, low-effort changes</li>
+          <li>Personalized to your lifestyle</li>
+          <li>Focus on 80/20 improvements</li>
         </ul>
       </div>
     </div>
